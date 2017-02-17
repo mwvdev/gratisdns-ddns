@@ -2,18 +2,16 @@
   "name": "gratisdns-ddns",
   "version": "1.0.0",
   "description": "A NodeJS application that updates DDNS at GratisDNS with the network's current external IP",
-  "main": "index.js",
-  "scripts": {
-    "start": "node ./index"
-  },
+  "main": "gratisdns.js",
   "author": "mwvdev",
   "license": "MIT",
   "dependencies": {
+    "commander": "^2.9.0",
     "request": "^2.72.0",
     "validator": "^5.4.0"
   },
-  "repository" : {
-    "type" : "git",
-    "url" : "https://github.com/mwvdev/gratisdns-ddns.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mwvdev/gratisdns-ddns.git"
   }
 }
