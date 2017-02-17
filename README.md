@@ -8,7 +8,7 @@ A NodeJS application that updates DDNS at GratisDNS with the network's current e
 
 ## How to run
 
-Open the configuration file, config.js, and fill in your settings.
+Use [config.js](config.js) to customize endpoints if necessary.
 
 Install dependencies using:
 
@@ -19,5 +19,5 @@ $ npm install
 Run using:
 
 ``` bash
-$ npm start
+$ node gratisdns <username> <password> <domain> <hostname>
 ```
